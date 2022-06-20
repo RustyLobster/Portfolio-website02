@@ -1,4 +1,4 @@
-# <span id="top">Portfolio-website02 </span>
+# <span id="top">🦀Rusty Portfolio Website ver. 2</span>
 
 Hi there.  
 This is a toy project to test out the tailwind functionalities and get hands-on experience on UI/UX design and implementation. I followed a tutorial by DesignCourse and you can learn from and find the original source code at: https://www.youtube.com/watch?v=Vp6GC3jKG20&t=4866s
