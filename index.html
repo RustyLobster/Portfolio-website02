@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Jost&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="tailwind.css" >
+
+    <title>Rusty Portfolio</title>
+</head>
+<body class="bg-body text-white font-poppins pb-12 ">
+
+    <!-- SECTION 1 - MAIN -->
+    <header class="py-6">
+        <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            <div class="text-lg font-bold">Rusty.Lobster</div>
+            <div class="hidden md:flex space-x-12 items-center">
+                <a href="#" class="text-selected-text">Home</a>
+                <a href="#mywork" >My Work</a>
+                <a href="#clients">Clients</a>
+                <a href="#hireme" ><button class="px-6 py-2 bg-theme font-bold">Hire Me</button></a>
+            </div>    
+            <div class="md:hidden">
+                <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="white"/></svg>
+            </div>
+        </div>
+    </header>
+    
+            <!-- NAV-DOT -->
+    <div class="container flex justify-between items-center mx-auto mt-16 px-8 md:px-14 lg:px-24 w-full"> 
+        <div class="flex flex-wrap md:flex-nowrap ">
+
+            <nav class="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
+                <div class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
+                    <a href="#" class="nav-dot selected-circle block w-7 h-7 border-4 rounded-full border-nav bg-body" href="#">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
+                    </a>
+                    <a href="#mywork" class="nav-dot block w-7 h-7 border-4 rounded-full border-nav bg-body" href="#">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Work</span>
+                    </a>
+                    <a href="#clients" class="nav-dot block w-7 h-7 border-4 rounded-full border-nav bg-body" href="#">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Clients</span>
+                    </a>
+                    <a href="#hireme" class="nav-dot block w-7 h-7 border-4 rounded-full border-nav bg-body" href="#">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Hire</span>
+                    </a>
+                </div>
+            </nav>
+
+                        <!-- BUTTON -->
+            <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
+                <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Building<br>beautiful web experiences.</h1>
+                <div class="w-full flex justify-center md:justify-start">
+                    <button class="flex items-center space-x-3 px-8 py-4 bg-theme font-bold mt-12">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                              </svg>
+                        </div>
+                        <span>View my work</span>
+                    </button>    
+                </div>
+            </div>
+
+                        <!-- CRAB IMAGE -->            
+            <img src="img/Main image - crab.png" alt="a crab" 
+                 class="w-3/4 max-w-5xl mt-12 md:absolute -mt-6 md:mt-0 md:w-3/5 right-10 -z-1" />
+
+        </div>
+    </div>
+
+    <!-- SECTION 2 - MY WORK -->
+    <div class="container mt-32 lg:mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24">
+        <section class="w-full">
+            <h2 id="mywork" class="secondary-title">My Work</h2>
+            <p class="section-paragraph">I’ve had the pleasure of working with a diverse range of crustacean clients and<br>implementing both frontend and backend.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+                <img src="https://images.unsplash.com/photo-1608162229737-206318880fa3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80" class="w-full bg-nav h-36 lg:h-72 object-cover">
+                <img src="https://images.unsplash.com/photo-1533072667862-6a115148f3c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="w-full md:block bg-nav h-36 lg:h-72 object-cover" >
+                <img src="https://images.unsplash.com/photo-1646060542378-56c29ab8adad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"  class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover" >
+
+                <img src="https://images.unsplash.com/photo-1523275033438-8c0a9239935b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover" >
+                <img src="https://images.unsplash.com/photo-1575674421692-41b70c2b0f71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"  class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover" >
+                <img src="https://images.unsplash.com/photo-1649191191052-bdebd22b3f11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover" >
+                
+                <img src="https://images.unsplash.com/photo-1580841129862-bc2a2d113c45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80" class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover" >
+                <img src="https://images.unsplash.com/photo-1553659971-f01207815844?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"     class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover" >
+                <img src="https://images.unsplash.com/photo-1530511960699-9d7ccd279040?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1147&q=80" class="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover md:col-span-2 lg:col-span-1" >
+            </div>
+        </section>
+    </div>
+
+    <!-- Clients -->
+    <div class="container mt-48 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <section class="w-full">
+
+            <h2 id="clients" class="secondary-title">Clients</h2>
+            <p class="section-paragraph">I’ve had the pleasure of working with a diverse range of crustacean clients and<br>implementing both frontend and backend.</p>
+
+            <!-- Clients -->
+
+                <!-- Client 1 -->
+            <div class="space-y-10 my-14 ">
+                <div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+
+                    <!-- Client logo -->
+                    <div class="mb-6 lg:mb-0">
+                        <img src="/img/Client - logo1.jpg" class="rounded-full" width="100" >
+                    </div>
+
+                    <!-- Client info -->
+                    <div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+                        <h3 class="text-white text-3xl font-semibold">Lobster from West Sea, Korea</h3>
+
+                        <div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+                            <div class="badge">UI/UX</div>
+                            <div class="badge">Frontend Development</div>
+                        </div>
+                    
+                        <p class="text-secondary">I’ve had the pleasure of working with a diverse range of crustacean clients and<br>implementing both frontend and backend.</p>
+                    </div>
+
+                </div>
+            </div>
+
+                <!-- Client 2 -->
+            <div class="space-y-12 my-16 ">
+                <div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+
+                    <!-- Client logo -->
+                    <div class="mb-6 lg:mb-0">
+                        <img src="/img/Client - logo2.png" class="rounded-full" width="100" >
+                    </div>
+
+                    <!-- Client info -->
+                    <div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+                        <h3 class="text-white text-3xl font-semibold">Crab from Planetarium, Mars</h3>
+
+                        <div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+                            <div class="badge">UI/UX</div>
+                            <div class="badge">Frontend Development</div>
+                        </div>
+                    
+                        <p class="text-secondary">I’ve had the pleasure of working with a diverse range of crustacean clients and<br>implementing both frontend and backend.</p>
+                    </div>
+
+                </div>
+            </div>
+
+                <!-- Client 3 -->
+            <div class="space-y-12 my-16 ">
+                <div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+
+                    <!-- Client logo -->
+                    <div class="mb-6 lg:mb-0">
+                        <img src="/img/Client - logo3.png" class="rounded-full" width="100" >
+                    </div>
+
+                    <!-- Client info -->
+                    <div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+                        <h3 class="text-white text-3xl font-semibold">Crab from Planetarium, Mars</h3>
+
+                        <div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+                            <div class="badge">UI/UX</div>
+                            <div class="badge">Frontend Development</div>
+                        </div>
+                    
+                        <p class="text-secondary">I’ve had the pleasure of working with a diverse range of crustacean clients and<br>implementing both frontend and backend.</p>
+                    </div>
+
+                </div>
+            </div>
+            
+        </section>
+    </div>
+
+    <!-- Hire me -->
+    <div class="container mt-48 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <section class="w-full">
+            <h2 id="hireme" class="secondary-title">Hire Me</h2>
+            <p class="section-paragraph">Feel free to contact me any time through your preferred method from below.</p>
+
+            <div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
+                <div class="space-y-12">
+                    <div>
+                        <label class="text-white block mb-6 text-xl font-bold">Name</label>
+                        <input class="w-full border border-input-border bg-input px-4 py-2">
+                    </div>
+                    <div>
+                        <label class="text-white block mb-6 text-xl font-bold">Email</label>
+                        <input class="w-full border border-input-border bg-input px-4 py-2">
+                    </div>
+                    <div>
+                        <label class="text-white block mb-6 text-xl font-bold">Message</label>
+                        <input class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none">
+                    </div>
+                    <button class="px-6 py-2 bg-theme font-bold">Send it</button>
+                </div>
+
+                <div class="mt-12">
+
+                    <!-- Contact info -->
+                    <p class="text-secondary">010-0000-0000</p>
+                    <a href="mailto:rustylobster@sea.atlantica" class="text-secondary underline mt-3 block">rustylobster@sea.atlantica</a>
+    
+                    <!-- Socials -->
+                    <div class="flex mt-20 space-x-6">
+                        <!-- Zoom -->
+                        <a href="#">
+                            <img src="img/Logo - Zoom.png" width="40" >
+                        </a>
+                        <!-- Twitter -->
+                        <a href="#">
+                            <img src="img/Logo - twitter.png" width="40" >
+                        </a>
+                    </div>
+    
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+
+
+        
+</body>
+</html> 
+
+<!-- 
+
+<div class="border-4 border-blue-200"></div>
+
+ -->
