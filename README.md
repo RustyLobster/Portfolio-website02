@@ -1,7 +1,13 @@
 # <span id="top">🦀Rusty Portfolio Website ver. 2</span>
 
 Hi there.  
-This is a toy project to test out the tailwind functionalities and get hands-on experience on UI/UX design and implementation. I followed a tutorial by DesignCourse and you can learn from and find the original source code at: https://www.youtube.com/watch?v=Vp6GC3jKG20&t=4866s
+This is a toy project to test out the tailwind functionalities and get hands-on experience on UI/UX design and implementation.  
+([💻Netlify deployment](https://rusty-portfolio-ver02.netlify.app/))
+
+**Notes** 
+
+- I followed a tutorial by DesignCourse and you can learn from and find the original source code at: https://www.youtube.com/watch?v=Vp6GC3jKG20&t=4866s
+- All images used are from Google Images or Unsplash. I used them just for learning purposes. If there are any issues related to the image usage, please contact me.
 
 <br>
 
